@@ -12,8 +12,6 @@ def _function_equals(real_thing, pretender):
     """
     if not isfunction(pretender):
         return False
-    print(getsource(real_thing))
-    print(getsource(pretender))
     return getsource(real_thing) == getsource(pretender)
 
 
